@@ -6,7 +6,7 @@ This project provides a Docker image containing Anaconda and Python3. The image 
 
 In this case, the host computer is a MacBook Pro. There isn't anything special about the Docker image, but it does have the expectation of being able to display to an X11 server on the host computer. There are instructions for setting up an X11 server on a MacBook. If you are using another computer (Linux, Windows), simply setup an X11 server and the Docker image will connect to that server.
 
-An overview of the project can be found at [Coderprocess](https://blog.coderprocess.com).
+An overview of the project can be found at [Coderprocess](http://blog.coderprocess.com/data-science-tools/).
 
 This document describes how to build the Docker image, start the Docker container, initialize the container, test the container, and restart the container. The hard work is performed in building and initializing the container. After that, startup/restart of the container is relatively easy.
 
