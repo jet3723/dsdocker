@@ -41,7 +41,7 @@ Start the container using the following command line. The DISPLAY IP address is 
     1. Get the IP Address of the MacBook
        ifconfig en0   use the inet address
 
-    2. docker run -i -t -p 8888:88888 -e DISPLAY=<ipaddr>:0 -v /tmp/.X11-unix:/tmp/.X11-unix dsdocker /bin/bash
+    2. docker run -i -t -p 8888:8888 -e DISPLAY=<ipaddr>:0 -v /tmp/.X11-unix:/tmp/.X11-unix dsdocker /bin/bash
 
     Example:
     ifconfig en0
